@@ -1,0 +1,170 @@
+body {
+margin: 0 auto; 
+padding: 0; 
+width: 100%; 
+font: 12px Verdana, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+margin: 0; padding: 0;
+}
+
+h1{
+font-size:2em;
+}
+
+h2{
+font-size:16px;
+}
+
+h3{
+margin: 10px 0 0 0;
+font-size:14px;
+}
+
+ul {
+list-style: none;
+}
+
+li {
+padding: .5em;
+}
+
+p {
+line-height:150%;
+}
+
+.spf {
+margin: auto; 
+margin-bottom: 10px;  
+padding: .25em; 
+width: 90%; 
+border: 1px dashed #960;
+}
+
+.four ul {
+list-style-image: url(../images/shape_move_back.png);
+}
+
+.seven ul {
+list-style-image: url(../images/film_go.png);
+}
+
+.eight ul {
+list-style-image: url(../images/film_go.png);
+}
+
+.nine ul {
+list-style-image: url(../images/film_go.png);
+}
+
+.nested {
+list-style-image: none;
+}
+
+#splashInstruct{
+width:500px;
+line-height:150%;
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#masthead {
+background: #c96 url(../images/wcc1.png) no-repeat top left; 
+height:107px; 
+border: 1px solid #630; 
+color: #630;
+}
+
+#masthead img {
+width: 34px; 
+position: absolute; 
+right: 11px; 
+top: 10px;
+font-size: 3em;
+}
+
+#masthead h1 {
+position: absolute; 
+left: 125px; 
+top: 50px;
+}
+
+#content {
+padding: 10px;
+}
+
+#wrapper {
+border-bottom: 3px solid #630; 
+margin-bottom: 10px;
+}
+
+#splash{
+margin-top:0px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#dwgnav {
+margin: 10px 0 0 0;
+text-align:center;
+}
+
+#dwgnav ul{
+margin:0px;
+padding:16px 8px 16px 8px;
+}
+
+#dwgnav li{
+font-size:.9em;
+display: inline;
+}
+
+#dwgnav li a{
+color:#000;
+text-decoration:none;
+padding:3px;
+border: 1px solid #960;
+}
+
+#dwgnav li a:focus, #dwgnav li a:hover, #dwgnav li a:active{
+color:#fff;
+background-color:#960;
+}
+
+#pipestage{
+position:absolute;
+left:50%;
+margin-left:-22.5em;
+margin-top:0px;
+width:45em;
+height:35em;
+}
+
+#directions{
+margin-top:20px;
+width:550px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#directions a{
+text-decoration:none;
+}
+
+#directions a:focus, #directions a:hover, #directions a:active{
+text-decoration:underline;
+}
+
+#dwg1, #dwg2, #dwg3, #dwg4, #dwg5, #dwg6, #dwg7, #dwg8, #dwg9, #dwg10{
+position:absolute;
+top:20px;
+left:50%;
+margin-left: -210px;
+width:420px;
+height:382px; 
+z-index:-5;
+display: none;
+}
